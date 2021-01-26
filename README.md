@@ -8,3 +8,6 @@
 4) rails g model Review title description score:integer airline:belongs_to
 
 5) rails db:migrate
+
+6) rails db:seed
+
