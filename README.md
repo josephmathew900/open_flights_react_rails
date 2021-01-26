@@ -1,24 +1,10 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1) rails new open-flights --webpack=react --database=postgresql -T
 
-Things you may want to cover:
+2) rails db:create
 
-* Ruby version
+3) rails g model Airline name image_url slug
 
-* System dependencies
+4) rails g model Review title description score:integer airline:belongs_to
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+5) rails db:migrate
