@@ -11,3 +11,7 @@
 
 6) rails db:seed
 
+7) rails g serializer Airline name image_url slug
+
+8) rails g serializer Review title description score airline_id
+
