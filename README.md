@@ -15,3 +15,5 @@
 
 8) rails g serializer Review title description score airline_id
 
+9) yarn add react-router-dom
+
